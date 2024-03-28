@@ -2,22 +2,22 @@ package mypackage;
 
 public class Student {
 	
-	String name;
-	int rollno;
+	 String str;
+	 int no;
 	public Student(String name,int rollno)
 	{
-		this.name=name;
-		this.rollno=rollno;
+		str=name;
+       no=rollno;
 	}
-	public static void display()
+	public void display()
 	{
-	System.out.println("Name is: "+name+" Age is: "+rollno);
+	System.out.println("Name is: "+str+" Age is: "+no);
 	}
 
 	public static void main(String[] args) {
 		
-		Student s=new Student("Sruthi",36);
-		Student.display();
+		Student s=new Student("Sruthi",5);
+		s.display();
 
 	}
 
